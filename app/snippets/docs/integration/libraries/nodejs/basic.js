@@ -1,4 +1,4 @@
-const Surreal = require('surrealdb.js');
+const Surreal = require('surrealdb.js').default;
 
 const db = new Surreal('http://127.0.0.1:8000/rpc');
 
